@@ -12,3 +12,4 @@ img = cv2.imread("1.jpg")
 # сопределяем характеристики объекта используя метод detect_genders_ages
 
 face_info = agender.detect_genders_ages(img)
+print (face_info)
